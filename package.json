@@ -8,7 +8,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
@@ -16,6 +17,7 @@
     "nuxt": "^2.13.3"
   },
   "devDependencies": {
-    "cross-env": "^5.0.1"
+    "cross-env": "^5.0.1",
+    "push-dir": "^0.4.1"
   }
 }
