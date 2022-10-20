@@ -1,0 +1,21 @@
+{
+  "name": "szkolenia",
+  "version": "1.0.0",
+  "description": "Krawczuk IT Soft",
+  "author": "Krawczuk",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.15.1",
+    "jquery": "^3.6.1",
+    "nuxt": "^2.13.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}

@@ -1,0 +1,34 @@
+.image-container,
+.info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-around;
+  padding: 20px;
+}
+.image-container.col {
+  flex-direction: column;
+  padding: 0px;
+}
+
+.info-element {
+  /* width: 10%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-between;
+}
+.info-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: baseline;
+}
+@media (max-width: 601px) {
+  .image-container,
+  .info-row {
+    flex-direction: column;
+  }
+}
